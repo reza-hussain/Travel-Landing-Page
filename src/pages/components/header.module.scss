@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50vw;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 10%;
+    
+    .link{
+        margin-right: 20px;
+    }
+}
+
+.navButton{
+    display: flex;
+    button{
+        margin-right: 20px;
+        padding: 5px 15px;
+        border: 1px solid black;
+        background-color: white;
+        transition: 200ms ease ;
+    }
+
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+}

@@ -1,0 +1,48 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+h1{
+    color: #101010;
+}
+p{
+    color: #333333;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+
+}
+
+.description{
+    h1{
+        font-size: 45px;
+    }
+}
+
+.mainImage{
+    img{
+        width: 100%;
+    }
+}
+
+.services{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+     h2{
+        font-size: 40px;
+        font-weight: 400;
+     }
+}
+
+.servicesContent{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
