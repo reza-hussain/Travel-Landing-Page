@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/footer";
 
 import Header from "./components/header";
 import Jumbotron from "./components/jumbotron";
@@ -12,7 +13,7 @@ export default function Home() {
     <div className='main'>
     <Header />
     <Jumbotron />
-    
+    <Footer />
     </div>
     </>
   )
