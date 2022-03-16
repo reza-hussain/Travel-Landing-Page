@@ -12,7 +12,9 @@ function Header() {
     }
   };
 
-  window.addEventListener('scroll', changeNavbarColor);
+  const isBrowser = typeof window !== "undefined";
+
+  if(isBrowser) window.addEventListener('scroll', changeNavbarColor);
   return (
     <div className={headerStyles.main}
     style ={{
