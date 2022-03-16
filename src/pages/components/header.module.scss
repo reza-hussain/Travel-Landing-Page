@@ -28,6 +28,7 @@ h1{
     list-style-type: none;
     justify-content: space-around;
     gap: 10%;
+    cursor: pointer;
     
     .link{
         margin-right: 20px;
@@ -37,15 +38,17 @@ h1{
 .navButton{
     display: flex;
     button{
+        cursor: pointer;
         margin-right: 20px;
         padding: 5px 15px;
-        border: 1px solid black;
+        color: #4D77FF;
         background-color: white;
+        border: none;
         transition: 200ms ease ;
     }
 
     button:hover{
-        background-color: black;
+        background-color: #56BBF1;
         color: white;
     }
 }

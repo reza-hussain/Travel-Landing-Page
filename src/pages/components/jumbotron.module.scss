@@ -147,14 +147,16 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 2%;
 
         i{
-            width:100px;
-            max-width: 100%;
-            height: 50px;
-            max-height: 100%;
             font-size: 40px;
-            padding: 2%;
+            padding: 3%;
+            display: flex;
+            margin-right: 3%;
+            background-color: #4D77FF;
+            color: white;
+            border-radius: 10px;
         }
 
         p{
@@ -200,9 +202,7 @@ p{
         padding:7% 6%;
         border-radius: 25px;
         background-color: white;
-        -webkit-box-shadow: 0 12px 25px 30px #fafafa;
-        -moz-box-shadow: 0 12px 25px 30px #fafafa;
-            box-shadow: 0 12px 25px 30px #fafafa;
+        box-shadow: 0px 40px 70px -18px rgba(77, 119, 255, 0.4);
 
         h3{
             font-weight: 400;
@@ -227,10 +227,10 @@ p{
             font-size: 12px;
 
             i:before{
-                background-color: #dadada;
+                background-color: #4D77FF;
                 padding: 8px;
                 border-radius: 100px;
-                color: #a7a7a7;
+                color: white;
             }
 
             p{
@@ -256,23 +256,23 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 10%;
     padding: 5% 5%;
     max-width: 100%;
-    border: 1px solid red;
 
     div{
         flex: 1 0 10%;
         display: block;
         padding: 2%;
-        width: 20%;
+        width: 100%;
         @media screen and (max-width : 450px){
             flex: 1 0 25%;
         }
     }
 
     img{
-        width: 100%;
+        width: inherit;
         filter: saturate(0);
         transition: filter 200ms ease;
 
@@ -283,11 +283,14 @@ p{
 }
 
 .subscription{
-    background-color: #c8c8c8;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(25deg, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(25deg, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 25px;
     justify-content: center;
     align-items: center;
     *{
-        background-color: #c8c8c8;
+        background-color: transparent;
         padding: 5%;
     }
 

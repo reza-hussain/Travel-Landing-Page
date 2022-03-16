@@ -44,14 +44,14 @@ function Jumbotron() {
                 image='bi bi-send'/>
 
                 <Services
-                title='Calculated Weather'
+                title='Local Events'
                 description='Built wicket longer admire do barton lets do weathet wow'
-                image='bi bi-cloud-sun-fill'/>
+                image='bi bi-flag-fill'/>
 
                 <Services
-                title='Calculated Weather'
+                title='Customization'
                 description='Built wicket longer admire do barton lets do weathet wow'
-                image='bi bi-cloud-sun-fill'/>
+                image='bi bi-gear-fill'/>
             </div>
         </div>
 
@@ -134,9 +134,9 @@ function Jumbotron() {
         
         <div className={jumbotronStyles.clients}>
             <div><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png" alt="" /></div>
-            <div><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png" alt="" /></div>
-            <div><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png" alt="" /></div>
-            <div><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png" alt="" /></div>
+            <div><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="" /></div>
+            <div><img src="https://www.freepnglogos.com/uploads/telegram-logo-png-0.png" alt="" /></div>
+            <div><img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="" /></div>
         </div>
         
 

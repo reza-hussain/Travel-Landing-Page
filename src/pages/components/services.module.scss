@@ -11,8 +11,9 @@
     top:0px;
     background-color: #ffffff;
 
+
     &:hover{
-        box-shadow: 0px 40px 70px -18px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 40px 70px -18px rgba(77, 119, 255, 0.4);
         top: -10px;
     }
 
@@ -24,6 +25,7 @@
 }
 
 .image{
+    color: #4D77FF;
     font-size: 70px;
 
     @media screen and (max-width : 450px){

@@ -11,7 +11,7 @@
     position: relative;
     overflow: hidden;
     top:0px;
-    box-shadow: 0px 40px 70px -18px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 40px 70px -18px rgba(77, 119, 255, 0.4);
 
     .image{
         width: 20vw;
@@ -60,20 +60,28 @@
         padding: 5%;
         font-size: 12px;
         margin-bottom: 0;
-        background-color: #c8c8c8;
+        background-color: #4D77FF;
+        color: white;
+        border-radius: 5px;
     }
 }
 
 .icons{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 
-    i:before{
-        background-color: #dadada;
+    i::before{
+        background-color: white;
         padding: 8px;
         border-radius: 100px;
-        color: #a7a7a7;
+        color: #4D77FF;
+        transition: all 200ms ease;
+    }
+
+    i:hover::before{
+        background-color: #4D77FF;
+        color: white;
     }
 
 }

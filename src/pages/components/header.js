@@ -18,7 +18,7 @@ function Header() {
   return (
     <div className={headerStyles.main}
     style ={{
-      background: colorChange ? '#101010' : 'transparent',
+      background: colorChange ? '#56BBF1' : 'transparent',
       color: colorChange ? '#fafafa' :'#101010'
     }}>
         <h1>travel.</h1>
@@ -29,7 +29,12 @@ function Header() {
                 <li className={headerStyles.link} >Flights</li>
                 <li className={headerStyles.link} >Bookings</li>
             </ul>
-            <div className={headerStyles.navButton}>
+            <div className={headerStyles.navButton}
+              style ={{
+                background: colorChange ? '#56BBF1' : 'transparent',
+                color: colorChange ? '#fafafa' :'#101010'
+              }}
+            >
                 <button>Sign in</button>
                 <button>Sign up</button>
             </div>
