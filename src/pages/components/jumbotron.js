@@ -28,7 +28,7 @@ function Jumbotron() {
         {/* ----------------------------Next Content------------------------*/}
 
         <div className={jumbotronStyles.services}>
-            <div className={jumbotronStyles.servicesTitle}>
+            <div>
                 <h2>We Offer Best Services</h2>
                 <p>Check them out here</p>
             </div>
@@ -57,7 +57,7 @@ function Jumbotron() {
 
         {/* ----------------------------Next Content------------------------*/}
         <div className={jumbotronStyles.destination}>
-            <div className={jumbotronStyles.destinationTitle}>
+            <div>
                 <h2>Top Destinations</h2>
                 <p>Places you can't resist going to</p>
             </div>
@@ -117,7 +117,7 @@ function Jumbotron() {
 
         {/* ----------------------------Next Content------------------------*/}
         <div className={jumbotronStyles.testimonials}>
-            <div className={jumbotronStyles.testimonialsTitle}>
+            <div>
                 <h1>What people say about Us.</h1>
             </div>
             <div className={jumbotronStyles.testimonialsContent}>
